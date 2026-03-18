@@ -7,7 +7,7 @@ context.fillStyle = "peachpuff";
 context.fillRect(0, 0, canvas.width, canvas.height);
 
 //ground
-context.fillStyle = "brown";
+context.fillStyle = "lightbrown";
 context.fillRect(0, 400, canvas.width, 200);
 
 //sun
