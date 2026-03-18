@@ -17,6 +17,6 @@ context.fillStyle ="yellow";
 context.fill();
 
 //house
-context.beginPath();
+context.fillStyle = "beige";
 context.fillRect(0, 400, canvas.width, 200;
 
