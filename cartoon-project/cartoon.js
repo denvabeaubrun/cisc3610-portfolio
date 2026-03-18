@@ -17,7 +17,7 @@ context.fillStyle ="yellow";
 context.fill();
 
 //water(waves)
-context.fillStyle = "blue";
+context.fillStyle = "#1E90FF";
 for(let x = 0; i<800; x+=40){
   context.beginpath();
   context.arc(x, 500, 20, 0, Math.PI, true);
