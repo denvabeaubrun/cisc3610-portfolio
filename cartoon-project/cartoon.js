@@ -6,7 +6,7 @@ var context = canvas.getContext("2d");
 context.fillStyle = "orange";
 context.fillRect(0, 0, canvas.width, canvas.height);
 
-//ground
+//ground(sand)
 context.fillStyle = "#EDC9AF";
 context.fillRect(0, 400, canvas.width, 200);
 
@@ -15,5 +15,14 @@ context.beginPath();
 context.arc(700, 100, 50, 0, 2 * Math.PI);
 context.fillStyle ="yellow";
 context.fill();
+
+//water(waves)
+context.fillStyle = "blue";
+for(let x = 0; i<800; x+=40){
+  context.beginpath();
+  context.arc(x, 500, 20, 0, Math.PI, true);
+  context.fill();
+  
+}
 
 
