@@ -2,10 +2,9 @@
 var canvas = document.getElementById("mycanvas");
 var context = canvas.getContext("2d");
 
-//Sky  
-context.fillStyle = "peachpuff";
-context.fillRect(0, 0, canvas.width, canvas.height);
+//Background 
+canvas.style.background = "peachpuff";
 
 //ground
-context.fillStyle = "green"
+context.fillStyle = "brown"
 context.fillRect(0, 400, canvas.width, 200);
