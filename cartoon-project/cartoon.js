@@ -7,7 +7,7 @@ context.fillStyle = "orange";
 context.fillRect(0, 0, canvas.width, canvas.height);
 
 //ground
-context.fillStyle = "green";
+context.fillStyle = "tan";
 context.fillRect(0, 400, canvas.width, 200);
 
 //sun
