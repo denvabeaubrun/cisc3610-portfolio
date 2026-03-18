@@ -18,7 +18,7 @@ context.fill();
 
 //water(waves)
 context.fillStyle = "#1E90FF";
-for(let x = 0; i<800; x+=40){
+for(let x = 0; x<800; x+=40){
   context.beginpath();
   context.arc(x, 500, 20, 0, Math.PI, true);
   context.fill();
