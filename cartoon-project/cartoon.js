@@ -4,7 +4,7 @@ var context = canvas.getContext("2d");
 
 //Background 
 context.fillStyle = "orange";
-context.fillRect(0, 0, canvas.width, canvas.height);
+context.fillRect(50, 0, canvas.width, canvas.height);
 
 
 
