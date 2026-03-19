@@ -20,7 +20,7 @@ context.fill();
 context.fillStyle = "#1E90FF";
 for(let x = 0; x<800; x+=40){
   context.beginPath();
-  context.arc(x, 400, 20, 0, Math.PI, true);
+  context.arc(x, 500, 20, 0, Math.PI, true);
   context.fill();
   
 }
