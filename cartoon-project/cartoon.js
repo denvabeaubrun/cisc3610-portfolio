@@ -24,7 +24,7 @@ context.fillRect(0,350,canvas.width,70);
 context.fillStyle = "#63C5DA";
 for(let x = 0; x<900; x+=40){
   context.beginPath();
-  context.arc(x, 380, 20, 0, Math.PI, true);
+  context.arc(x, 380, 18, 0, Math.PI, true);
   context.fill();
 }
 
