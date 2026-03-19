@@ -36,7 +36,7 @@ for(let x = 12; x<900; x+=40){
   context.fill();
 }
 //house
-context.fillStyle = "yellow";
-context.fillRect(50, 250, 200, 150);
+context.fillStyle = "#f4c542";
+context.fillRect(100, 250, 200, 150);
 
 
