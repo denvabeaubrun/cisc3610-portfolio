@@ -18,7 +18,7 @@ context.fill();
 
 //water base
 context.fillStyle = "#1E90FF";
-context.fillRect(0,400,canvas.width,300);
+context.fillRect(0,400,canvas.width,100);
 
 //water(waves) first row
 context.fillStyle = "#1E90FF";
