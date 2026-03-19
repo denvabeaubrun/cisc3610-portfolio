@@ -4,8 +4,8 @@
 ## Assignments
 
 ### Project 1
-- Description: (what it is)
-- Link: [View Project](link-here)
+- Description: Cartoon project
+- Link: [View Project]([link-here](https://denvabeaubrun.github.io/cisc3610-portfolio/cartoon-project/))
 
 ### Project 2
 - Description:
