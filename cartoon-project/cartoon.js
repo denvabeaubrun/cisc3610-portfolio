@@ -51,8 +51,8 @@ context.fill();
 
 //house right window
 context.fillStyle="#87CEEB";
-context.fillRect(270, 300, 40, 40);
+context.fillRect(270, 340, 40, 40);
 
 //house left window
-context.fillRect(390, 300, 40, 40);
+context.fillRect(390, 340, 40, 40);
 
