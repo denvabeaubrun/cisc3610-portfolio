@@ -51,5 +51,5 @@ context.fill();
 
 //house right window
 context.fillStyle="#87CEEB";
-conext.fillRect(
+
 
