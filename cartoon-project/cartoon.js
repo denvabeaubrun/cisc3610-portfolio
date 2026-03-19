@@ -55,7 +55,7 @@ context.fillRect(280, 400, 40, 40);
 
 
 //house right window
-context.fillRect(3980, 400, 40, 40);
+context.fillRect(380, 400, 40, 40);
 
 
 //roof
