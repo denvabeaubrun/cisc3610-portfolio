@@ -61,3 +61,9 @@ context.fillRect(380, 400, 40, 40);
 //roof
 context
 
+//rock 1
+context.beginPath();
+context.arc(350, 400, 5, 0, Math.PI*2);
+//rock2
+
+//rock 3
