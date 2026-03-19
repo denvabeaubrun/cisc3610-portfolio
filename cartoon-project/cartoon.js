@@ -32,7 +32,7 @@ for(let x = 0; x<900; x+=40){
 context.fillStyle = "#63C5DA";
 for(let x = 12; x<900; x+=40){
   context.beginPath();
-  context.arc(x, 372, 15, 0, Math.PI, true);
+  context.arc(x, 390, 20, 0, Math.PI, true);
   context.fill();
 }
 
