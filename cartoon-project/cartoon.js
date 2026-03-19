@@ -36,8 +36,8 @@ for(let x = 12; x<900; x+=40){
   context.fill();
 }
 //house
-context.fillStyle = "#2ec4b6";
-context.fillRect(100, 250, 200, 150);
+context.fillStyle = "#6a5acd";
+context.fillRect(250, 260, 200, 160);
 
 //house roof
 context.fillStyle="red";
