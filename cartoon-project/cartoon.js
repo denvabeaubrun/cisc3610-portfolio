@@ -37,7 +37,7 @@ for(let x = 12; x<900; x+=40){
 }
 //house
 context.fillStyle = "#6a5acd";
-context.fillRect(250, 350, 200, 160);
+context.fillRect(250, 350, 200, 175);
 
 //house door
 context.fillStyle="#8b4513";
