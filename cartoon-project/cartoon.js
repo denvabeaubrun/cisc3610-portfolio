@@ -50,7 +50,7 @@ context.arc(360, 460, 5, 0, Math.PI*2);
 context.fill();
 
 //house right window
-context.fillStyle="#87CEEB";
+context.fillStyle="#e6f2ff";
 context.fillRect(270, 340, 40, 40);
 
 //house left window
