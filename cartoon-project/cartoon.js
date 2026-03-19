@@ -50,11 +50,15 @@ context.arc(360, 470, 5, 0, Math.PI*2);
 context.fill();
 
 //house right window
-context.fillStyle="#e6f2ff";
-context.fillRect(270, 340, 40, 40);
+context.fillStyle="#f1f1f1";
+context.beginPath()
+context.arc(330, 320, 20, 0, Math.PI * 2);
+context.fill();
 
 //house left window
-context.fillRect(390, 340, 40, 40);
+context.beginPath();
+context.arc(470, 320, 20, 0, Math.PI * 2);
+context.fill();
 
 //roof
 context
