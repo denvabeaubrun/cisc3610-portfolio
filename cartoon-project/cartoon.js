@@ -8,7 +8,7 @@ context.fillRect(0, 0, canvas.width, canvas.height);
 
 //ground(sand)
 context.fillStyle = "#EDC9AF";
-context.fillRect(0, 300, canvas.width, 200);
+context.fillRect(0, 400, canvas.width, 100);
 
 //sun
 context.beginPath();
