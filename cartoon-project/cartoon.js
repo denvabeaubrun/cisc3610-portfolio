@@ -51,7 +51,7 @@ context.fill();
 
 //house right window
 context.fillStyle="#f1f1f1";
-context.fillRect(270, 400, 40, 40);
+context.fillRect(290, 400, 40, 40);
 
 
 //house left window
