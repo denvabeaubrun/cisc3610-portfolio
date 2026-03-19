@@ -8,7 +8,7 @@ context.fillRect(0, 0, canvas.width, canvas.height);
 
 //ground(sand)
 context.fillStyle = "#EDC9AF";
-context.fillRect(0, 400, canvas.width, 200);
+context.fillRect(0, 600, canvas.width, 200);
 
 //sun
 context.beginPath();
@@ -20,7 +20,7 @@ context.fill();
 context.fillStyle = "#1E90FF";
 for(let x = 0; x<800; x+=40){
   context.beginPath();
-  context.arc(x, 600, 20, 0, Math.PI, true);
+  context.arc(x, 500, 20, 0, Math.PI, true);
   context.fill();
   
 }
