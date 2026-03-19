@@ -5,9 +5,7 @@
 
 ### Project 1
 - Description: Cartoon project
-- Link: [View Project]([link-here]
-  (https://denvabeaubrun.github.io/cisc3610-portfolio/cartoon-project/))
-
+- Link: [View Project] (https://denvabeaubrun.github.io/cisc3610-portfolio/cartoon-project/)
 ### Project 2
 - Description:
 - Link:
