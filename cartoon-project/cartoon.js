@@ -51,11 +51,11 @@ context.fill();
 
 //house right window
 context.fillStyle="#f1f1f1";
-context.fillRect(340, 420, 20, 0);
+context.fillRect(280, 420, 20, 0);
 
 
 //house left window
-context.fillRect(450, 420, 20, 0);
+context.fillRect(430, 420, 20, 0);
 
 
 //roof
