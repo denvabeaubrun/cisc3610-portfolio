@@ -25,7 +25,7 @@ for(let x = 0; x<900; x+=40){
 }
 
 //more waves, second row
-context.fillStyle = "#1E90FF";
+context.fillStyle = "#63C5DA";
 for(let x = 12; x<900; x+=40){
   context.beginPath();
   context.arc(x, 390, 20, 0, Math.PI, true);
