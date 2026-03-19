@@ -41,12 +41,12 @@ context.fillRect(250, 350, 200, 175);
 
 //house door
 context.fillStyle="#8b4513";
-context.fillRect(330, 400, 40, 100);
+context.fillRect(330, 440, 40, 100);
 
 //house doornob
 context.fillStyle="gold";
 context.beginPath();
-context.arc(360, 370, 5, 0, Math.PI*2);
+context.arc(360, 440, 5, 0, Math.PI*2);
 context.fill();
 
 //house right window
