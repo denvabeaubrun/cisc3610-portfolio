@@ -49,13 +49,13 @@ context.beginPath();
 context.arc(360, 470, 5, 0, Math.PI*2);
 context.fill();
 
-//house right window
-context.fillStyle="#bde0fe";
-context.fillRect(270, 400, 40, 40);
-
-
 //house left window
-context.fillRect(390, 400, 40, 40);
+context.fillStyle="#bde0fe";
+context.fillRect(280, 400, 40, 40);
+
+
+//house right window
+context.fillRect(3980, 400, 40, 40);
 
 
 //roof
