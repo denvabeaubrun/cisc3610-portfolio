@@ -52,12 +52,12 @@ context.fill();
 //house right window
 context.fillStyle="#f1f1f1";
 context.beginPath()
-context.arc(310, 350, 20, 0, Math.PI * 2);
+context.arc(310, 390, 20, 0, Math.PI * 2);
 context.fill();
 
 //house left window
 context.beginPath();
-context.arc(450, 350, 20, 0, Math.PI * 2);
+context.arc(450, 390, 20, 0, Math.PI * 2);
 context.fill();
 
 //roof
