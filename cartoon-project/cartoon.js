@@ -76,15 +76,14 @@ context.fill();
 
 //bars
 context.strokeStyle = "#8b4513";
-context.lineWidth = 2;
+context.lineWidth = 4;
 
 context.beginPath();
-context.moveTo(350,280);
-context.lineTo(350,320);
+context.moveTo(350,300);
+context.lineTo(350,340);
 
-context.moveTo(330,300);
-context.lineTo(370,300);
-
+context.moveTo(330,320);
+context.lineTo(370,320);
 context.stroke();
 
 
