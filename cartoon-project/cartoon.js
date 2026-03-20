@@ -28,9 +28,9 @@ function drawBird(x,y,size){
   
   context.stroke();
 }
-drawBird(280, 100, 10);
-drawBird(330, 80, 8);
-drawBird(390, 120, 12);
+drawBird(380, 100, 10);
+drawBird(430, 80, 8);
+drawBird(490, 120, 12);
 
 //sun
 context.beginPath();
