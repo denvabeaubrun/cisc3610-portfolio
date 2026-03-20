@@ -108,8 +108,6 @@ context.moveTo(330,320);
 context.lineTo(370,320);
 context.stroke();
 
-
-
 //rocks(pebbles)
 function drawRock(x, y, size){
 context.fillStyle="gray";
@@ -123,4 +121,7 @@ drawRock(520, 415, 5);
 drawRock(600, 425, 4);
 drawRock(700, 410, 3);
 drawRock(650, 410, 6);
+
+//draw text
+
 
