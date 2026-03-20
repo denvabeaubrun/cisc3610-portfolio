@@ -68,6 +68,12 @@ context.closePath();
 
 context.fill();
 
+//round window
+context.fillStyle ="white";
+context.beginPath()
+context.arc(360, 470, 4, 0, Math.Pi*2);
+context.fill();
+
 
 //rocks(pebbles)
 context.fillStyle="gray";
