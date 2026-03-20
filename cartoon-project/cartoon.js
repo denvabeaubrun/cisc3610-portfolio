@@ -123,7 +123,7 @@ drawRock(700, 410, 3);
 drawRock(650, 410, 6);
 
 //draw text
-context.fillStyle = "#5c6f7a";
+context.fillStyle = "#5f7f9a";
 context.font = "24px Arial";
 context.textAlign = "center";
 context.fillText("Seaside Story by Denva", canvas.width/2 ,570);
