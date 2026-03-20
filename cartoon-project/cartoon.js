@@ -17,7 +17,7 @@ function drawBird(x,y,size){
 
   context.beginPath();
   context.moveTo(x,y);
-  context.lineTo(x+size, y-size);
+  context.lineTo(x+size, y+size);
   context.lineTo(x + size * 2, y);
   context.stroke();
 }
