@@ -123,8 +123,8 @@ drawRock(700, 410, 3);
 drawRock(650, 410, 6);
 
 //draw text
-context.fillStyle = "#a9bfcf";
-context.font = "bold 24px Arial";
+context.fillStyle = "#5c6f7a";
+context.font = "24px Arial";
 context.textAlign = "center";
-context.fillText("Seaside Story by Denva", canvas.width/2 ,550);
+context.fillText("Seaside Story by Denva", canvas.width/2 ,570);
 
