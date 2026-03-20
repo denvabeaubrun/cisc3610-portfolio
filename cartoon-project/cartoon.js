@@ -71,7 +71,7 @@ context.fill();
 //round window
 context.fillStyle ="white";
 context.beginPath()
-context.arc(360, 470, 4, 0, Math.PI*2);
+context.arc(360, 410, 4, 0, Math.PI*2);
 context.fill();
 
 
