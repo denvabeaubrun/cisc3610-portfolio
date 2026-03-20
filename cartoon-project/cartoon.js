@@ -65,31 +65,31 @@ context
 context.fillStyle="gray";
 
 context.beginPath();
-context.arc(120, 450, 5, 0, Math.PI * 2);
+context.arc(120, 410, 5, 0, Math.PI * 2);
 context.fill();
 
 context.beginPath();
-context.arc(180, 500, 4, 0, Math.PI * 2);
+context.arc(180, 420, 4, 0, Math.PI * 2);
 context.fill();
 
 context.beginPath();
-context.arc(90, 520, 3, 0, Math.PI * 2);
+context.arc(90, 430, 3, 0, Math.PI * 2);
 context.fill();
 
 context.beginPath();
-context.arc(520, 460, 5, 0, Math.PI * 2);
+context.arc(520, 415, 5, 0, Math.PI * 2);
 context.fill();
 
 context.beginPath();
-context.arc(600, 520, 4, 0, Math.PI * 2);
+context.arc(600, 425, 4, 0, Math.PI * 2);
 context.fill();
 
 context.beginPath();
-context.arc(700, 480, 3, 0, Math.PI * 2);
+context.arc(700, 410, 3, 0, Math.PI * 2);
 context.fill();
 
 context.beginPath();
-context.arc(650, 550, 6, 0, Math.PI * 2);
+context.arc(650, 400, 6, 0, Math.PI * 2);
 context.fill();
 
 
