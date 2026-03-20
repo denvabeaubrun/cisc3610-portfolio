@@ -62,7 +62,7 @@ context.fillRect(380, 400, 40, 40);
 context
 
 //rocks(pebbles)
-for(let x = 0; x<10; x++){
+for(let i = 0; i<10; i++){
 context.fillStyle="gray";
 context.beginPath();
 context.arc(420 + i * 10, 530, 5, 0, Math.PI * 2);
