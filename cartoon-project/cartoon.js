@@ -76,7 +76,7 @@ context.fill();
 
 
 //rocks(pebbles)
-function drawRock(){
+function drawRock(x, y, size){
 context.fillStyle="gray";
 context.beginPath();
 context.arc(x, y, size, 0, Math.PI * 2);
