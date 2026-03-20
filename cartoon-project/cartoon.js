@@ -10,6 +10,21 @@ context.fillRect(0, 0, canvas.width, canvas.height);
 context.fillStyle = "#EDC9AF";
 context.fillRect(0, 400, canvas.width, 200);
 
+//birds in sky
+function drawBird(x,y,size){
+  context.strokeStyle ="black";
+  context.lineWidth = 2;
+
+  context.beginPath();
+  context.moveTo(x,y);
+  context.lineTo(x+size, y-size);
+  context.lineTo(x + size * 2, y);
+  context.stroke();
+}
+drawBird(150, 100, 10);
+drawBird(200, 80, 8);
+drawBird(260, 120, 12);
+
 //sun
 context.beginPath();
 context.arc(700, 100, 50, 0, 2 * Math.PI);
@@ -74,7 +89,7 @@ context.beginPath()
 context.arc(350, 320, 20, 0, Math.PI*2);
 context.fill();
 
-//bars
+//round window bars
 context.strokeStyle = "#8b4513";
 context.lineWidth = 3;
 
