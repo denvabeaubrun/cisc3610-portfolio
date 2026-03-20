@@ -71,8 +71,22 @@ context.fill();
 //round window
 context.fillStyle ="white";
 context.beginPath()
-context.arc(350, 330, 20, 0, Math.PI*2);
+context.arc(350, 320, 20, 0, Math.PI*2);
 context.fill();
+
+//bars
+context.strokeStyle = "#8b4513";
+context.lineWidth = 2;
+
+context.beginPath();
+context.moveTo(350,280);
+context.lineTo(350,320);
+
+context.moveTo(330,300);
+context.lineTo(370,300);
+
+context.stroke();
+
 
 
 //rocks(pebbles)
