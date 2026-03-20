@@ -64,7 +64,7 @@ context
 //rock 1
 context.fillStyle="gray";
 context.beginPath();
-context.arc(350, 400, 5, 0, Math.PI*2);
+context.arc(370, 470, 5, 0, Math.PI*2);
 context.fill();
 //rock2
 
