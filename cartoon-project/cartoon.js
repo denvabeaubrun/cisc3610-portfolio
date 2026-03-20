@@ -89,7 +89,7 @@ context.arc(700, 410, 3, 0, Math.PI * 2);
 context.fill();
 
 context.beginPath();
-context.arc(650, 400, 6, 0, Math.PI * 2);
+context.arc(650, 410, 6, 0, Math.PI * 2);
 context.fill();
 
 
