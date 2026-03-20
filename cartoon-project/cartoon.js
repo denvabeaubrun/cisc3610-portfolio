@@ -14,20 +14,20 @@ context.fillRect(0, 400, canvas.width, 200);
 function drawBird(x,y,size){
   context.strokeStyle ="black";
   context.lineWidth = 2;
-
+  
+  context.beginPath();
    // left outer wing
   context.moveTo(x - size, y);
   context.lineTo(x, y);
   //body
-  context.beginPath();
-  context.moveTo(x,y);
   context.lineTo(x+size, y+size);
   context.lineTo(x + size * 2, y);
-  context.stroke();
+ 
 
   //right outer wing
-  context.moveTo(x + size * 2, y);
-  context.lineTo(x + size * 3, y);  
+  context.lineTo(x + size * 3, y);
+  
+  context.stroke();
 }
 drawBird(150, 100, 10);
 drawBird(200, 80, 8);
