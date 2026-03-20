@@ -44,7 +44,7 @@ context.fillRect(0,350,canvas.width,50);
 
 //water(waves) first row
 context.fillStyle = "#63C5DA";
-for(let x = 0; x<canvas.width; x+=40){
+for(let x = 0; x<canvas.width + 40; x+=40){
   context.save()
   context.translate(x,380);
   
@@ -57,7 +57,7 @@ for(let x = 0; x<canvas.width; x+=40){
 
 //more waves, second row
 context.fillStyle = "#63C5DA";
-for(let x = 12; x<canvas.width; x+=40){
+for(let x = 12; x<canvas.width + 40; x+=40){
   context.save();
   context.translate(x,390);
   
