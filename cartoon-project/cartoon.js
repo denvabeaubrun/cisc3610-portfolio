@@ -61,11 +61,10 @@ context.fillRect(380, 400, 40, 40);
 //roof
 context
 
-//rock 1
+//rocks(pebbles)
+for(let x = 0; x<10; x++){
 context.fillStyle="gray";
 context.beginPath();
-context.arc(400, 530, 5, 0, Math.PI*2);
+context.arc(420 + i * 10, 530, 5, 0, Math.PI * 2);
 context.fill();
-//rock2
-
-//rock 3
+}
