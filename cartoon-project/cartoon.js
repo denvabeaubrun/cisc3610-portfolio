@@ -23,15 +23,14 @@ function drawBird(x,y,size){
   context.lineTo(x+size, y+size);
   context.lineTo(x + size * 2, y);
  
-
   //right outer wing
   context.lineTo(x + size * 3, y);
   
   context.stroke();
 }
-drawBird(150, 100, 10);
-drawBird(200, 80, 8);
-drawBird(260, 120, 12);
+drawBird(200, 100, 10);
+drawBird(250, 80, 8);
+drawBird(310, 120, 12);
 
 //sun
 context.beginPath();
