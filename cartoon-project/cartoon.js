@@ -62,12 +62,34 @@ context.fillRect(380, 400, 40, 40);
 context
 
 //rocks(pebbles)
-for(let i = 0; i<10; i++){
-  let x = Math.random() * canvas.width;
-  let y = 420 + Math.random() * 180;
-  let r = 3 + Math.random() * 4;
 context.fillStyle="gray";
+
 context.beginPath();
-context.arc(x, y, r, 0, Math.PI * 2);
+context.arc(120, 450, 5, 0, Math.PI * 2);
 context.fill();
-}
+
+context.beginPath();
+context.arc(180, 500, 4, 0, Math.PI * 2);
+context.fill();
+
+context.beginPath();
+context.arc(90, 520, 3, 0, Math.PI * 2);
+context.fill();
+
+context.beginPath();
+context.arc(520, 460, 5, 0, Math.PI * 2);
+context.fill();
+
+context.beginPath();
+context.arc(600, 520, 4, 0, Math.PI * 2);
+context.fill();
+
+context.beginPath();
+context.arc(700, 480, 3, 0, Math.PI * 2);
+context.fill();
+
+context.beginPath();
+context.arc(650, 550, 6, 0, Math.PI * 2);
+context.fill();
+
+
