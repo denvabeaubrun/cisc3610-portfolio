@@ -63,8 +63,11 @@ context
 
 //rocks(pebbles)
 for(let i = 0; i<10; i++){
+  let x = Math.random() * canvas.width;
+  let y = 420 + Math.random() * 180;
+  let r = 3 + Math.random() * 4;
 context.fillStyle="gray";
 context.beginPath();
-context.arc(420 + i * 10, 530, 5, 0, Math.PI * 2);
+context.arc(x, y, r, 0, Math.PI * 2);
 context.fill();
 }
