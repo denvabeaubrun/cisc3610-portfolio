@@ -61,9 +61,9 @@ context.fillRect(380, 400, 40, 40);
 //roof
 context.fillStyle = "red";
 context.beginPath();
-canvas.moveTo(250, 350)
-canvas.lineTo(350,270);
-canvas.lineTo(450,350);
+context.moveTo(250, 350)
+context.lineTo(350,270);
+context.lineTo(450,350);
 context.closePath();
 
 context.fill();
