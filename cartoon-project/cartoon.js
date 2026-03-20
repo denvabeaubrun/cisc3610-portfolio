@@ -124,7 +124,7 @@ drawRock(650, 410, 6);
 
 //draw text
 context.fillStyle = "#a9bfcf";
-context.font = "24px Arial";
+context.font = "bold 24px Arial";
 context.textAlign = "center";
 context.fillText("Seaside Story by Denva", canvas.width/2 ,550);
 
