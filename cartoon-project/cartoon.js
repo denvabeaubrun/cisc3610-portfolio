@@ -71,7 +71,7 @@ for(let x = 12; x<canvas.width + 40; x+=40){
 }
 //house
 context.fillStyle = "#6a5acd";
-context.fillRect(250, 300, 200, 175);
+context.fillRect(250, 350, 200, 175);
 
 //house door
 context.fillStyle="#8b4513";
