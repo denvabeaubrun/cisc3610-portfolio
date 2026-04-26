@@ -1,4 +1,18 @@
-function showSentence(){
-const menu = document.getElementById("wordSelect");
-const display = document.getElementById("setenceDisplay");
+function speak(textToSay) {
+  const message = new SpeechSynthesisUtterance(textToSay);
+  message.pitch = 1.2;
+  message.rate = 1.0;
+  window.speechSynthesis.speak(message);
+}
+
+function showSentence() {
+  const menu = document.getElementById("wordSelect");
+  const display = document.getElementById("sentenceDisplay");
+
+  if (menu.selectedIndex > 0) {
+    const selectedOption = menu.options[menu.selectedIndex];
+    display.value = selectedOption.dataset.sentence;
+  } else {
+    display.value = "";
+  }
 }
