@@ -26,7 +26,7 @@ function speakWord() {
 
 function speakSentence(){
   const display =document.getElementById("sentenceDisplay");
-  if(display != ""){
+  if(display.value != ""){
     speak(display.value);
   }
 }
