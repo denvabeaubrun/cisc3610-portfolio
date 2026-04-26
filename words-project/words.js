@@ -16,3 +16,10 @@ function showSentence() {
     display.value = "";
   }
 }
+
+function speakWord() {
+  const menu = document.getElementById("wordSelect");
+  if (menu.selectedIndex > 0) {
+    speak(menu.value);
+  }
+}
