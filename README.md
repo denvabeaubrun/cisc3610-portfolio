@@ -7,8 +7,8 @@
 - Description: Cartoon project
 - Link: [View Project] https://denvabeaubrun.github.io/cisc3610-portfolio/cartoon-project/
 ### Project 2
-- Description:
-- Link:
+- Description: Words project
+- Link:https://denvabeaubrun.github.io/cisc3610-portfolio/words-project/
 
 ## Labs
 - Lab 1
