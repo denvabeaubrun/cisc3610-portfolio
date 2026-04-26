@@ -23,3 +23,12 @@ function speakWord() {
     speak(menu.value);
   }
 }
+
+function speakSentence(){
+  const display =document.getElementById("sentenceDisplay");
+  if(display != ""){
+    speak(display.value);
+  }
+}
+
+
