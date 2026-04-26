@@ -8,9 +8,15 @@
 <h1>Multimedia Dictionary</h1>
 <p>Pick a word to hear it and see it used in a sentence.</p>
     <div>
-      <select id="wordSelect" onChange="showSentence">
+      <select id="wordSelect" onChange="showSentence()">
       <option value="">--Select--</option>
+      <option value="coca-cola" data-sentence="Coca-cola is the best soda">coca-cola</option>
+      <option value="pineapple" data-sentence="Pineapple is the best fruit">pineapple</option>
+      <option value="cats" data-sentence="cats are the best animal in the world">cats</option>
+      <option value="beef" data-sentence="Beef is better than chicken">beef</option> 
+      <option value="music" data-sentence="All types of music are nice">coca-cola</option>
       </select>
+      <button onclick="speakWord()">Speak Word</button>
     </div>
   </body>
 </html>
