@@ -5,6 +5,7 @@ Portfolio for my CISC 3610 — Introduction to Multimedia Programming course.
 ## Projects
 
 ### Project 1: Cartoon Project
+A simple animated cartoon scene built with HTML and CSS.
 [View Project](https://denvabeaubrun.github.io/cisc3610-portfolio/cartoon-project/)
 
 ### Project 2: Multimedia Dictionary
