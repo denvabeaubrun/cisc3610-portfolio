@@ -1,23 +1,21 @@
+# CISC 3610 Portfolio
 
-# cisc3610-portfolio
+Portfolio for my CISC 3610 — Introduction to Multimedia Programming course.
 
-## Assignments
+## Projects
 
-### Project 1
-- Description: Cartoon project
-- Link: [View Project] https://denvabeaubrun.github.io/cisc3610-portfolio/cartoon-project/
-### Project 2
-- Description: Words project
-- Link:[View Project] https://denvabeaubrun.github.io/cisc3610-portfolio/words-project/
+### Project 1: Cartoon Project
+[View Project](https://denvabeaubrun.github.io/cisc3610-portfolio/cartoon-project/)
 
-## HW
-- Description: Bootstrap grid system
-- Link: https://denvabeaubrun.github.io/cisc3610-portfolio/Bootstrap/
+### Project 2: Multimedia Dictionary
+An interactive vocabulary app using HTML, JavaScript, and the Web Speech API. Pick a word from the dropdown to see it used in a sentence and hear it spoken aloud.
+[View Project](https://denvabeaubrun.github.io/cisc3610-portfolio/words-project/)
 
-## Labs
-- Lab 1
-- Lab 2
+## Homework
+
+### Bootstrap Photo Gallery
+A responsive 3-column photo gallery built with Bootstrap's grid system.
+[View Project](https://denvabeaubrun.github.io/cisc3610-portfolio/Bootstrap/)
 
 ## Final Project
-- Description:
-- Link:
+*Coming soon — a Hannah Montana resume page using Bootstrap components.*
