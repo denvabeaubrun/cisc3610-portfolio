@@ -280,3 +280,49 @@ body {
     min-width: 700px;
   }
 }
+
+/* Floating photos around timeline */
+.experience-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.floating-photo {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 6px solid white;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.float-1 {
+  top: 80px;
+  left: 30px;
+  transform: rotate(-8deg);
+}
+
+.float-2 {
+  bottom: 60px;
+  left: 60px;
+  transform: rotate(6deg);
+}
+
+.float-3 {
+  top: 100px;
+  right: 30px;
+  transform: rotate(10deg);
+}
+
+/* Timeline appears above floating photos */
+.h-timeline-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
