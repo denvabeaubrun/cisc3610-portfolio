@@ -146,15 +146,15 @@ body {
   color: #3a3a3a;
 }
 .h-timeline-wrapper {
-  padding: 60px 20px;
-  overflow-x: auto;
+  padding: 180px 10px 180px 10px;   /* lots of top + bottom space for boxes */
+  overflow: visible;                /* no scrollbar */
 }
 
 .h-timeline {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 800px;
+  width: 100%;
   position: relative;
 }
 
@@ -164,9 +164,8 @@ body {
   flex-direction: column;
   align-items: center;
   flex: 1;
-  min-width: 180px;
+  min-width: 0;     /* lets it shrink to fit */
 }
-
 /* The arrow/ribbon shape */
 .h-arrow {
   width: 100%;
@@ -199,8 +198,9 @@ body {
   background: white;
   border: 3px solid;
   border-radius: 12px;
-  padding: 15px;
-  width: 90%;
+  padding: 12px;
+  width: 95%;
+  max-width: 220px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -216,18 +216,18 @@ body {
 }
 
 .h-box h4 {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 700;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
+  line-height: 1.2;
 }
 
 .h-box p {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   margin-bottom: 0;
   color: #444;
   line-height: 1.4;
 }
-
 /* Dotted line connecting circle to box */
 .h-box-top::after {
   content: '';
