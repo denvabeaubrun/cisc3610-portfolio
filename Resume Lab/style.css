@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url('hannah-logo.png'), url('purple-stars.png');
+  background-image: url('hannah-logo.png'), url('purplebackground.png');
   background-repeat: repeat, no-repeat;
   background-size: 120px auto, cover;
   background-attachment: fixed;
