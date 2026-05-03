@@ -68,3 +68,15 @@ body {
   padding: 25px 30px;
   min-height: 200px;
 }
+.photo-wrapper {
+  position: relative;
+}
+
+.horse-sticker {
+  position: absolute;
+  width: 120px;
+  bottom: -20px;
+  right: -10px;
+  transform: rotate(-10deg);
+  z-index: 10;
+}
