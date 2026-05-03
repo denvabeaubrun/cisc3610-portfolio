@@ -76,7 +76,7 @@ body {
   position: absolute;
   width: 110px;
   top: -30px;
-  left: -30px;
-  transform: rotate(-15deg);
+  left: -35px;
+  transform: rotate(15deg);
   z-index: 10;
 }
