@@ -7,12 +7,11 @@
 }
 
 body {
-  background-image: url('purplebackground.png');
-  background-size: cover;
+  background-image: url('hannah-big-logo.png'), url('purplebackground.png');
+  background-repeat: repeat, no-repeat;
+  background-size: 200px auto, cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
 }
-
 .hannah-name {
   font-family: 'Great Vibes', cursive;
   background: linear-gradient(45deg, #b967ff, #ffd700);
