@@ -11,4 +11,20 @@ body {
   background-repeat: repeat, repeat;
   background-size: 200px auto, auto;
   background-attachment: fixed;
+} 
+
+.hannah-tagline {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #ffd700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hannah-motto {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
