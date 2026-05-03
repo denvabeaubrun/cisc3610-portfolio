@@ -12,11 +12,3 @@ body {
   background-size: 200px auto, auto;
   background-attachment: fixed;
 }
-.hannah-name {
-  font-family: 'Great Vibes', cursive;
-  background: linear-gradient(45deg, #b967ff, #ffd700);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-size: 8rem;
-}
