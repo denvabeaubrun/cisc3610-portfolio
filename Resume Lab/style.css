@@ -80,3 +80,68 @@ body {
   transform: rotate(15deg);
   z-index: 10;
 }
+.postit-board {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  min-height: 500px;
+}
+
+.postit {
+  width: 280px;
+  padding: 25px 20px;
+  box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  color: #333;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.postit:hover {
+  transform: scale(1.05) rotate(0deg) !important;
+  z-index: 100;
+}
+
+/* Different colors */
+.postit-pink {
+  background: #ffb3d9;
+  transform: rotate(-6deg);
+  margin-top: 20px;
+}
+
+.postit-purple {
+  background: #d1b3ff;
+  transform: rotate(4deg);
+  margin-top: -10px;
+}
+
+.postit-blue {
+  background: #b3d9ff;
+  transform: rotate(-3deg);
+  margin-top: 30px;
+}
+
+/* Handwritten school name */
+.postit-school {
+  font-family: 'Caveat', cursive;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #2a0d3e;
+}
+
+.postit-years {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.postit-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
