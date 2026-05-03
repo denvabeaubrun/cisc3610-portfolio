@@ -18,5 +18,8 @@ An interactive vocabulary app using HTML, JavaScript, and the Web Speech API. Pi
 A responsive 3-column photo gallery built with Bootstrap's grid system.
 [View Project](https://denvabeaubrun.github.io/cisc3610-portfolio/Bootstrap/)
 
-## Final Project
-*Coming soon — a Hannah Montana resume page using Bootstrap components.*
+## Lab
+
+### Resume Lab
+A Hannah Montana resume page using Bootstrap components. 
+https://denvabeaubrun.github.io/cisc3610-portfolio/Resume%20Lab/
