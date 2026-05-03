@@ -7,9 +7,9 @@
 }
 
 body {
-  background-image: url('hannah-big-logo.png'), url('purplebackground.png');
+  background-image: url('hannah-logo.png'), url('purple-stars.png');
   background-repeat: repeat, no-repeat;
-  background-size: 200px auto, cover;
+  background-size: 120px auto, cover;
   background-attachment: fixed;
 }
 .hannah-name {
