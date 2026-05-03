@@ -145,111 +145,138 @@ body {
   margin-bottom: 0;
   color: #3a3a3a;
 }
-.timeline {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px 0;
+.h-timeline-wrapper {
+  padding: 60px 20px;
+  overflow-x: auto;
 }
 
-/* The vertical line down the middle */
-.timeline::before {
+.h-timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 800px;
+  position: relative;
+}
+
+.h-milestone {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 180px;
+}
+
+/* The arrow/ribbon shape */
+.h-arrow {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%, 15px 50%);
+}
+
+/* Year circle on the arrow */
+.h-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  border: 4px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  z-index: 2;
+}
+
+/* Boxes — alternating top and bottom */
+.h-box {
+  background: white;
+  border: 3px solid;
+  border-radius: 12px;
+  padding: 15px;
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+
+.h-box-top {
+  bottom: 60px;
+}
+
+.h-box-bottom {
+  top: 60px;
+}
+
+.h-box h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.h-box p {
+  font-size: 0.85rem;
+  margin-bottom: 0;
+  color: #444;
+  line-height: 1.4;
+}
+
+/* Dotted line connecting circle to box */
+.h-box-top::after {
   content: '';
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: 100%;
   left: 50%;
-  width: 4px;
-  background: linear-gradient(to bottom, #ffd700, #ff6ec7, #b967ff);
-  transform: translateX(-50%);
+  width: 2px;
+  height: 30px;
+  border-left: 2px dashed currentColor;
 }
 
-.timeline-item {
-  position: relative;
-  width: 50%;
-  padding: 20px 40px;
-  box-sizing: border-box;
-}
-
-/* Alternate left and right */
-.timeline-item:nth-child(odd) {
-  left: 0;
-  text-align: right;
-}
-
-.timeline-item:nth-child(even) {
-  left: 50%;
-}
-
-/* The dots on the timeline */
-.timeline-dot {
+.h-box-bottom::before {
+  content: '';
   position: absolute;
-  top: 30px;
-  width: 20px;
-  height: 20px;
-  background: #ffd700;
-  border: 4px solid #4a1a6e;
-  border-radius: 50%;
-  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  width: 2px;
+  height: 30px;
+  border-left: 2px dashed currentColor;
 }
 
-.timeline-item:nth-child(odd) .timeline-dot {
-  right: -10px;
-}
+/* COLORS — Hannah Montana palette */
+.h-color-pink { color: #ff5fa3; }
+.h-color-pink.h-arrow { background: #ff5fa3; }
+.h-color-pink.h-circle { color: #ff5fa3; border-color: #ff5fa3; }
+.h-color-pink.h-box { color: #ff5fa3; }
+.h-color-pink.h-box h4 { color: #ff5fa3; }
 
-.timeline-item:nth-child(even) .timeline-dot {
-  left: -10px;
-}
+.h-color-purple { color: #b964e8; }
+.h-color-purple.h-arrow { background: #b964e8; }
+.h-color-purple.h-circle { color: #b964e8; border-color: #b964e8; }
+.h-color-purple.h-box { color: #b964e8; }
+.h-color-purple.h-box h4 { color: #b964e8; }
 
-/* The content card */
-.timeline-content {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
-}
+.h-color-gold { color: #ffc233; }
+.h-color-gold.h-arrow { background: #ffc233; }
+.h-color-gold.h-circle { color: #ffc233; border-color: #ffc233; }
+.h-color-gold.h-box { color: #ffc233; }
+.h-color-gold.h-box h4 { color: #ffc233; }
 
-.timeline-year {
-  display: inline-block;
-  background: #4a1a6e;
-  color: white;
-  font-weight: bold;
-  padding: 4px 12px;
-  border-radius: 20px;
-  font-size: 0.9rem;
-  margin-bottom: 10px;
-}
+.h-color-blue { color: #4eb3e8; }
+.h-color-blue.h-arrow { background: #4eb3e8; }
+.h-color-blue.h-circle { color: #4eb3e8; border-color: #4eb3e8; }
+.h-color-blue.h-box { color: #4eb3e8; }
+.h-color-blue.h-box h4 { color: #4eb3e8; }
 
-.timeline-title {
-  color: #4a1a6e;
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.timeline-text {
-  color: #333;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  margin-bottom: 0;
-}
-
-/* Mobile - all items on one side */
+/* Mobile — make scroll horizontally */
 @media (max-width: 768px) {
-  .timeline::before {
-    left: 30px;
-  }
-  
-  .timeline-item {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 20px;
-    text-align: left !important;
-    left: 0 !important;
-  }
-  
-  .timeline-item:nth-child(odd) .timeline-dot,
-  .timeline-item:nth-child(even) .timeline-dot {
-    left: 20px;
+  .h-timeline {
+    min-width: 700px;
   }
 }
