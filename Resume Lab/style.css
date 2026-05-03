@@ -91,13 +91,15 @@ body {
 }
 
 .postit {
-  width: 280px;
+  width: 240px;
+  height: 240px;
   padding: 25px 20px;
-  box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.25);
   font-family: Arial, sans-serif;
   color: #333;
   position: relative;
   transition: transform 0.3s;
+  border-radius: 2px;
 }
 
 .postit:hover {
@@ -105,43 +107,48 @@ body {
   z-index: 100;
 }
 
-/* Different colors */
+/* Brighter solid colors like the reference image */
 .postit-pink {
-  background: #ffb3d9;
+  background: #ff5fa3;
   transform: rotate(-6deg);
   margin-top: 20px;
 }
 
 .postit-purple {
-  background: #d1b3ff;
+  background: #b964e8;
   transform: rotate(4deg);
   margin-top: -10px;
 }
 
 .postit-blue {
-  background: #b3d9ff;
+  background: #4eb3e8;
   transform: rotate(-3deg);
   margin-top: 30px;
 }
 
-/* Handwritten school name */
+/* Handwritten — like Tom's font (neat marker writing) */
 .postit-school {
-  font-family: 'Caveat', cursive;
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 5px;
-  color: #2a0d3e;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+  line-height: 1.2;
 }
 
 .postit-years {
-  font-size: 0.9rem;
-  font-style: italic;
-  color: #555;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1rem;
+  color: #1a1a1a;
   margin-bottom: 12px;
+  opacity: 0.85;
 }
 
 .postit-text {
+  font-family: 'Permanent Marker', cursive;
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: 1.4;
   margin-bottom: 0;
+  color: #1a1a1a;
+  font-weight: 400;
 }
