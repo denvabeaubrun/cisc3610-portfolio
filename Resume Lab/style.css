@@ -28,3 +28,43 @@ body {
   font-weight: 300;
   font-size: 1.1rem;
 }
+.mac-window {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+
+.mac-titlebar {
+  background: linear-gradient(to bottom, #e6e6e6, #cccccc);
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #b0b0b0;
+}
+
+.mac-dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.mac-red { background: #ff5f56; }
+.mac-yellow { background: #ffbd2e; }
+.mac-green { background: #27c93f; }
+
+.mac-title {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  margin-right: 50px;
+}
+
+.mac-content {
+  padding: 25px 30px;
+  min-height: 200px;
+}
