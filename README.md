@@ -22,4 +22,4 @@ A responsive 3-column photo gallery built with Bootstrap's grid system.
 
 ### Resume Lab
 A Hannah Montana resume page using Bootstrap components. 
-[View Project](https://denvabeaubrun.github.io/cisc3610-portfolio/Resume Lab/)
+[View Project](https://denvabeaubrun.github.io/cisc3610-portfolio/Resume%20Lab/)
