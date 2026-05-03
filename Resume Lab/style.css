@@ -74,9 +74,9 @@ body {
 
 .horse-sticker {
   position: absolute;
-  width: 100px;
-  bottom: 10px;
-  left: 10px;
+  width: 110px;
+  top: -30px;
+  left: -30px;
   transform: rotate(-15deg);
   z-index: 10;
 }
