@@ -136,8 +136,8 @@ body {
 
 .postit-years {
   font-family: 'kids handwriting', cursive;
-  font-size: 1.7rem;
-  color: #4a4a4a;
+  font-size: 1.3rem;
+  color: #1a1a1a;
   margin-bottom: 5px;
   font-style: italic;
 }
@@ -145,9 +145,9 @@ body {
 .postit-text {
   font-family: 'kids handwriting', cursive;
   font-size: 1.3rem;
-  line-height: 1.3;
+  line-height: 1.2;
   margin-bottom: 0;
-  color: #3a3a3a;
+  color: #1a1a1a;
 }
 .h-timeline-wrapper {
   padding: 180px 10px 180px 10px;   /* lots of top + bottom space for boxes */
