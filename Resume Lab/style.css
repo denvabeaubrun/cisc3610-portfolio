@@ -326,24 +326,23 @@ body {
   z-index: 1;
 }
 .cork-board {
-  background-color: #d9a86a;
+  background-color: #b8884a;
   background-image: 
-    radial-gradient(circle at 20% 30%, rgba(150, 95, 30, 0.25) 1.5px, transparent 2px),
-    radial-gradient(circle at 70% 60%, rgba(150, 95, 30, 0.25) 1px, transparent 1.5px),
-    radial-gradient(circle at 45% 80%, rgba(150, 95, 30, 0.25) 1.5px, transparent 2px),
-    radial-gradient(circle at 85% 20%, rgba(150, 95, 30, 0.25) 1px, transparent 1.5px),
-    radial-gradient(circle at 30% 70%, rgba(150, 95, 30, 0.25) 1px, transparent 1.5px),
-    radial-gradient(circle at 60% 40%, rgba(150, 95, 30, 0.25) 1.5px, transparent 2px);
+    radial-gradient(circle at 20% 30%, rgba(80, 50, 15, 0.35) 1.5px, transparent 2px),
+    radial-gradient(circle at 70% 60%, rgba(80, 50, 15, 0.35) 1px, transparent 1.5px),
+    radial-gradient(circle at 45% 80%, rgba(80, 50, 15, 0.35) 1.5px, transparent 2px),
+    radial-gradient(circle at 85% 20%, rgba(80, 50, 15, 0.35) 1px, transparent 1.5px),
+    radial-gradient(circle at 30% 70%, rgba(80, 50, 15, 0.35) 1px, transparent 1.5px),
+    radial-gradient(circle at 60% 40%, rgba(80, 50, 15, 0.35) 1.5px, transparent 2px);
   background-size: 30px 30px, 25px 25px, 35px 35px, 28px 28px, 32px 32px, 26px 26px;
   padding: 60px 50px;
-  border: 14px solid #c98744;
+  border: 14px solid #8b5a2b;
   border-radius: 8px;
   max-width: 700px;
   margin: 0 auto;
   box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.4);
   min-height: 450px;
 }
-
 .paper-note {
   background: #fffef5;
   padding: 35px 40px;
