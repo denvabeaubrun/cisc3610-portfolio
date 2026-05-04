@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: url('hannah-big-logo.png'), url('purplebackground.png');
+  background-image: url('hannah-big-logo.png'), url('Photos/purplebackground.png');
   background-repeat: repeat, repeat;
   background-size: 200px auto, auto;
   background-attachment: fixed;
