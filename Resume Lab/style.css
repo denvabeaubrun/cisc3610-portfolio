@@ -429,5 +429,38 @@ body {
   padding: 22px;
   background-size: 60% 60%;
 }
+.award-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px 25px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.25);
+  border-top: 5px solid #ffd700;
+  transition: transform 0.3s;
+}
 
+.award-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 6px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.award-icon {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+}
+
+.award-title {
+  color: #4a1a6e;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.award-text {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
 
