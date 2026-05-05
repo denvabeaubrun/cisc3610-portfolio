@@ -381,7 +381,53 @@ body {
   padding: 0;
   margin: 0;
 }
+.album-page {
+  background: #fffef5;
+  padding: 40px 30px 50px 30px;
+  text-align: center;
+  border-radius: 4px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
 
+.album-page img {
+  width: 100%;
+  max-width: 380px;
+  height: 320px;
+  object-fit: cover;
+  border: 8px solid white;
+  box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.3);
+  transform: rotate(-1deg);
+}
 
+.album-caption {
+  font-family: 'kids handwriting', cursive;
+  font-size: 1.4rem;
+  color: #2a2a2a;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.album-title {
+  font-family: 'kids handwriting', cursive;
+  font-size: 1.1rem;
+  color: #555;
+  font-style: italic;
+  margin: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 8%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  padding: 22px;
+  background-size: 60% 60%;
+}
 
 
