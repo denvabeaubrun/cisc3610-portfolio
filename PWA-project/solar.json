@@ -1,1 +1,92 @@
-
+{
+  "celestialBodies": [
+    {
+      "title": "Mercury",
+      "type": "planet",
+      "description": "Mercury is the closest planet to the Sun...",
+      "image": "images/mercury.png",
+      "audio": "audio/mercury.mp3",
+      "facts": ["Hottest day, coldest night", "No atmosphere", "Smallest planet"]
+    },
+    {
+      "title": "Venus",
+      "type": "planet",
+      "description": "Venus is the second largest terrestial planet with no rings or moons and is close to Earth's size.  It has a thick atmosphere full of the greenhouse gas carbon dioxide and clouds made of sulfuric acid",
+      "image": "images/venus.png",
+      "audio": "audio/mercury.pm3",
+      "facts": ["Hottest planet (471 °C)", "Diameter of 12,104 km", "A day on venus is 117 Earth days", "A year is 225 earth days",
+        "Made up of a central iron core, rocky mantle and silicate crust", "Venus rotates in the opposite way of the sun"]
+    },
+    {
+      "title": "Earth",
+      "type": "planet",
+      "description": "Earth is the third planet from the sun and is the largest terrestial planet, with mostly blue oceans, white swirls (clouds/ice), beige patches (deserts), and green patches (forests)",
+      "image": "images/earth.png",
+      "audio": "audio/earth.pm3",
+      "facts": ["The only known planet to support life", "70% of the Earth’s surface is covered in water", "Earth actually takes 23 hours, 56 minutes and 4 seconds to rotate on its axis",
+        "A year on earth is actually 365.2564 days", "Earth is mostly iron, oxygen and silicon", "Earth has 1 moon and 2 co-orbital satellites", 
+        "Earth has 4 main layers, the crust, mantle, outer core, and inner core", "The only planet not named after a Greek or Roman god", "Earth's average surface temperature is 15 °C", 
+   ] 
+    },
+    {
+      "title": "Mars",
+      "type": "planet",
+      "description": "Mars is often called the red planet because of rusty iron in the ground, it is half the Earth's size with two moons",
+      "image": "images/mars.png",
+      "audio": "audio/mars.mp3",
+      "facts": ["Mars is a cold desert world, the average temperature is -85 °F ", "Mars has seasons, polar ice caps, volcanoes, canyons, and weather",
+          "Mars has thin atmosphere made of mostly of carbon dioxide, nitrogen, and argon", "Humans cannot breathe air on Mars", "One year on Mars is 687 Earth days",
+        "One day on Mars is 24.6 hours", "There are signs of ancient floods on Mars"]
+    },
+    {
+       "title": "Jupiter"
+      "type": "planet"
+      "description": "Jupiter is the largest planet 
+      "image":
+      "audio":
+      "facts": []
+    },
+    {
+       "title":
+      "type":
+      "description":
+      "image":
+      "audio":
+      "facts": []
+    },
+    { 
+      "title":
+      "type":
+      "description":
+      "image":
+      "audio":
+      "facts": []    
+    },
+    {
+      "title":
+      "type":
+      "description":
+      "image":
+      "audio":
+      "facts": []
+    },
+    {
+      "title":
+      "type":
+      "description":
+      "image":
+      "audio":
+      "facts": []
+    },
+    {
+      "title":
+      "type":
+      "description":
+      "image":
+      "audio":
+      "facts": []
+    }
+    
+    
+  ]
+}
