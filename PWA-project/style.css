@@ -67,5 +67,16 @@ body::before {
 .carousel-item {
   transition: transform 1.2s ease-in-out;
 }
+/* Move entire carousel DOWN */
+.carousel {
+  margin-top: 120px;
+}
+
+/* Move arrows LOWER */
+.carousel-control-prev,
+.carousel-control-next {
+  top: 65%;
+  transform: translateY(-50%);
+}
 
 
