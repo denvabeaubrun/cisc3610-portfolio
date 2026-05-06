@@ -18,7 +18,8 @@ slide.innerHTML = `
 
       <!-- 🪐 IMAGE -->
       <div class="col-md-6 text-center">
-        ${body.image}>
+        ${body.image}replace(" ", "-")}">
+
       </div>
 
       <!-- 📦 CARD -->
