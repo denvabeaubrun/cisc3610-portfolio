@@ -11,19 +11,19 @@ fetch("solar.json")
       const slide = document.createElement("div");
       slide.className = "carousel-item" + (index === 0 ? " active" : "");
 
-      slide.innerHTML = `
+slide.innerHTML = `
   <div class="planet-slide container">
 
     <div class="row align-items-center">
 
-      <!-- 🌍 LEFT SIDE: IMAGE -->
+      <!-- 🪐 IMAGE -->
       <div class="col-md-6 text-center">
-        <img src="${body.image}" class="planet-img">
+        ${body.image}>
       </div>
 
-      <!-- 📦 RIGHT SIDE: CARD -->
+      <!-- 📦 CARD -->
       <div class="col-md-6">
-        <div class="card bg-dark text-white p-4">
+        <div class="card text-white p-4">
 
           <h2>${body.title}</h2>
           <p>${body.description}</p>
