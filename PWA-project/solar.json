@@ -39,27 +39,29 @@
         "One day on Mars is 24.6 hours", "There are signs of ancient floods on Mars"]
     },
     {
-       "title": "Jupiter"
-      "type": "planet"
+      "title": "Jupiter",
+      "type": "planet",
       "description": "Jupiter is the largest planet and is covered in swirling cloud stripes with a red spot due to a great storm still ongoing",
-      "image":
-      "audio":
-      "facts": []
+      "image": "images/jupiter.png",
+      "audio": "audio/jupiter.mp3",
+      "facts": ["Jupiter is the fifth planet","A gas giant with no solid surface", "Has very faint rings", "Made of mostly hydrogen and helium", "One day in jupiter is 10 hours",
+          "One year in Jupiter is 11.8 Earth years", "Has auroras that are more energetic than Earths"]
     },
     {
-       "title":
-      "type":
-      "description":
-      "image":
-      "audio":
-      "facts": []
+      "title": "Saturn",
+      "type": "planet",
+      "description": "Saturn is a pale yellow colored gas giant with a bright ring system made of ice and rock"'
+      "image": "images/saturn.png",
+      "audio": "audio/saturn.mp3",
+      "facts": ["The 6th planet", "Made up of mostly hydrogen and helium", "Seven main rings", "Thick atmosphere", "One day in Saturn is 10.7 hours", "One year in Saturn is 29 Earth years",
+           "274 moons", "Temperature is -139 °C"]
     },
     { 
-      "title":
-      "type":
-      "description":
-      "image":
-      "audio":
+      "title": "Uranus",
+      "type": "planet",
+      "description": "A beautiful pale cyan and smooth blue-green ice giant with narrow dark rings",
+      "image": "images/uranus.png",
+      "audio": "audio/uranus.mp3",
       "facts": []    
     },
     {
