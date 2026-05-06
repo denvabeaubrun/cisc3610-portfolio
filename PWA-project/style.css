@@ -81,7 +81,7 @@ body::before {
 
 .carousel-control-prev,
 .carousel-control-next {
-  top: 80%;
+  top: 60%;
   transform: translateY(-50%);
 }
 
