@@ -1,4 +1,4 @@
-fetch("data.json")
+fetch("solar.json")
   .then(response => response.json())
   .then(data => {
 
