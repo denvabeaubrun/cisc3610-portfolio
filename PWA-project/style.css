@@ -16,7 +16,7 @@ body::before {
   font-size: 3rem;
   text-shadow:
     0 0 10px white,
-    0 0 20px white,
+    0 0 20px black,
     0 0 40px white;
 }
 
