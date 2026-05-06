@@ -18,11 +18,22 @@
   </header>
 
   <main class="container my-4">
-    <div id="app" class="row g-4">
+
+  <div id="planetCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" id="carousel-content">
       
     </div>
-  </main>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#planetCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
 
+    <button class="carousel-control-next" type="button" data-bs-target="#planetCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+</main>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="app.js"></script>
