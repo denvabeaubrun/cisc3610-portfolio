@@ -12,26 +12,39 @@ fetch("solar.json")
       slide.className = "carousel-item" + (index === 0 ? " active" : "");
 
       slide.innerHTML = `
-        <div class="planet-slide text-center">
+  <div class="planet-slide container">
 
-          <img src="${body.image}" class="planet-img" alt="${body.title}">
+    <div class="row align-items-center">
+
+      <!-- 🌍 LEFT SIDE: IMAGE -->
+      <div class="col-md-6 text-center">
+        <img src="${body.image}" class="planet-img">
+      </div>
+
+      <!-- 📦 RIGHT SIDE: CARD -->
+      <div class="col-md-6">
+        <div class="card bg-dark text-white p-4">
 
           <h2>${body.title}</h2>
           <p>${body.description}</p>
 
-          <button class="btn btn-info"
+          <button class="btn btn-info mb-2"
             onclick="playAudio('${body.audio}')">
             🔊 Listen
           </button>
 
-          <button class="btn btn-secondary mt-2"
+          <button class="btn btn-secondary"
             onclick="showFacts(${index})">
             📘 Facts
           </button>
 
         </div>
-      `;
+      </div>
 
+    </div>
+
+  </div>
+`;
       carousel.appendChild(slide);
 
       // ✅ CREATE MENU BUTTON
