@@ -63,7 +63,7 @@
       "image": "images/uranus.png",
       "audio": "audio/uranus.mp3",
       "facts": ["The seventh planet", "Made of hydrogen, helium, and methane", "The methane makes Uranus blue", "Rotates on its side",
-      "Rotates in the opposite direction as most other planets", "Has 13 rings", "One day on Uranus is 17 hours and 14 mins", "One year on uranus is 84 Earth years",
+      "Rotates in the opposite direction as most other planets", "Has 13 rings", "One day on Uranus is 17 hours and 14 mins", "One year on Uranus is 84 Earth years",
       "Has 28 moons", "Very cold, -224°C"]    
     },
     {
@@ -73,7 +73,7 @@
        "image": "images/neptune.png",
       "audio": "audio/neptune.mp3",
       "facts": ["Dark, cold and very windy", "The last planet in our solar system", "Made of a thick fog of water, ammonia, and methane", "Has 6 rings", "Made up of methane, hydrogen and helium",
-      "The methane gaves it the blue color", "One day on Neptune is 16 hours","One year is 165 Earth years", "Has 16 moons", "Discovered in 1846", "Cold, -353°F"]
+      "The methane gives it the blue color", "One day on Neptune is 16 hours","One year is 165 Earth years", "Has 16 moons", "Discovered in 1846", "Cold, -353°F"]
     },
     {
       "title": "Sun",
