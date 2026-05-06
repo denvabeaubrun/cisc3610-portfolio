@@ -80,4 +80,47 @@ body::before {
   top: 60%;
   transform: translateY(-50%);
 }
+.mercury {
+  filter: drop-shadow(0 0 30px rgba(200, 200, 200, 0.8));
+}
+
+.venus {
+  filter: drop-shadow(0 0 40px rgba(255, 200, 0, 0.9));
+}
+
+.earth {
+  filter: drop-shadow(0 0 40px rgba(0, 150, 255, 0.9));
+}
+
+.mars {
+  filter: drop-shadow(0 0 40px rgba(255, 60, 0, 0.9));
+}
+
+.jupiter {
+  filter: drop-shadow(0 0 40px rgba(255, 140, 0, 0.8));
+}
+
+.saturn {
+  filter: drop-shadow(0 0 40px rgba(255, 220, 100, 0.9));
+}
+
+.uranus {
+  filter: drop-shadow(0 0 40px rgba(100, 220, 255, 0.9));
+}
+
+.neptune {
+  filter: drop-shadow(0 0 40px rgba(0, 80, 255, 1));
+}
+
+.sun {
+  filter: drop-shadow(0 0 60px rgba(255, 200, 0, 1));
+}
+
+.moon {
+  filter: drop-shadow(0 0 25px rgba(220, 220, 220, 0.8));
+}
+
+.black-hole {
+  filter: drop-shadow(0 0 50px rgba(120, 0, 255, 0.9));
+}
 
