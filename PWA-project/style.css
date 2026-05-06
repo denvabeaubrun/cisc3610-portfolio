@@ -78,3 +78,10 @@ body::before {
   border-radius: 50%;
   padding: 20px;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 65%;
+  transform: translateY(-50%);
+}
+
