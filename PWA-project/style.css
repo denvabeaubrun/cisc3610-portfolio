@@ -5,3 +5,22 @@ body {
   background-position:center;
   background-attachment: fixed;
 } 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.app-title {
+  font-size: 3rem;
+  text-shadow:
+    0 0 10px white,
+    0 0 20px cyan,
+    0 0 40px cyan;
+}
+
+.app-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
