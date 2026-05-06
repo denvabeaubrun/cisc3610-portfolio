@@ -3,29 +3,29 @@
     {
       "title": "Mercury",
       "type": "planet",
-      "description": "Mercury is the closest planet to the Sun...",
+      "description": "Mercury is a heavily cratered, light grey rocky world",
       "image": "images/mercury.png",
       "audio": "audio/mercury.mp3",
-      "facts": ["Hottest day, coldest night", "No atmosphere", "Smallest planet"]
+      "facts": ["Hottest day, coldest night", "No atmosphere", "Smallest planet", "Closest to the sun"]
     },
     {
       "title": "Venus",
       "type": "planet",
-      "description": "Venus is the second largest terrestial planet with no rings or moons and is close to Earth's size.  It has a thick atmosphere full of the greenhouse gas carbon dioxide and clouds made of sulfuric acid",
+      "description": "Venus a rocky, Earth-sized planet covered by thick, yellowish-white clouds of sulfuric acid, appearing very bright and featureless from space",
       "image": "images/venus.png",
-      "audio": "audio/mercury.pm3",
+      "audio": "audio/venus.mp3",
       "facts": ["Hottest planet (471 °C)", "Diameter of 12,104 km", "A day on venus is 117 Earth days", "A year is 225 earth days",
-        "Made up of a central iron core, rocky mantle and silicate crust", "Venus rotates in the opposite way of the sun"]
+        "Made up of a central iron core, rocky mantle and silicate crust", "Rotates in the opposite way of the sun"]
     },
     {
       "title": "Earth",
       "type": "planet",
       "description": "Earth is the third planet from the sun and is the largest terrestial planet, with mostly blue oceans, white swirls (clouds/ice), beige patches (deserts), and green patches (forests)",
       "image": "images/earth.png",
-      "audio": "audio/earth.pm3",
-      "facts": ["The only known planet to support life", "70% of the Earth’s surface is covered in water", "Earth actually takes 23 hours, 56 minutes and 4 seconds to rotate on its axis",
-        "A year on earth is actually 365.2564 days", "Earth is mostly iron, oxygen and silicon", "Earth has 1 moon and 2 co-orbital satellites", 
-        "Earth has 4 main layers, the crust, mantle, outer core, and inner core", "The only planet not named after a Greek or Roman god", "Earth's average surface temperature is 15 °C", 
+      "audio": "audio/earth.mp3",
+      "facts": ["The only known planet to support life", "70% of the Earth’s surface is covered in water", "Takes 23 hours, 56 minutes and 4 seconds to rotate on its axis",
+        "A year on earth is actually 365.2564 days", "Mostly iron, oxygen and silicon", "Has 1 moon and 2 co-orbital satellites", 
+        "4 main layers, the crust, mantle, outer core, and inner core", "The only planet not named after a Greek or Roman god", "Earth's average surface temperature is 15 °C"
    ] 
     },
     {
@@ -34,8 +34,8 @@
       "description": "Mars is often called the red planet because of rusty iron in the ground, it is half the Earth's size with two moons",
       "image": "images/mars.png",
       "audio": "audio/mars.mp3",
-      "facts": ["Mars is a cold desert world, the average temperature is -85 °F ", "Mars has seasons, polar ice caps, volcanoes, canyons, and weather",
-          "Mars has thin atmosphere made of mostly of carbon dioxide, nitrogen, and argon", "Humans cannot breathe air on Mars", "One year on Mars is 687 Earth days",
+      "facts": ["A cold desert world, the average temperature is -85 °F ", "Has seasons, polar ice caps, volcanoes, canyons, and weather",
+          "Has a thin atmosphere made of mostly of carbon dioxide, nitrogen, and argon", "Humans cannot breathe air on Mars", "One year on Mars is 687 Earth days",
         "One day on Mars is 24.6 hours", "There are signs of ancient floods on Mars"]
     },
     {
@@ -44,16 +44,16 @@
       "description": "Jupiter is the largest planet and is covered in swirling cloud stripes with a red spot due to a great storm still ongoing",
       "image": "images/jupiter.png",
       "audio": "audio/jupiter.mp3",
-      "facts": ["Jupiter is the fifth planet","A gas giant with no solid surface", "Has very faint rings", "Made of mostly hydrogen and helium", "One day in jupiter is 10 hours",
-          "One year in Jupiter is 11.8 Earth years", "Has auroras that are more energetic than Earths"]
+      "facts": ["The fifth planet","A gas giant with no solid surface", "Has very faint rings", "Made of mostly hydrogen and helium", "One day on jupiter on 10 hours",
+          "One year on Jupiter is 11.8 Earth years", "Has auroras that are more energetic than Earths"]
     },
     {
       "title": "Saturn",
       "type": "planet",
-      "description": "Saturn is a pale yellow colored gas giant with a bright ring system made of ice and rock"'
+      "description": "Saturn is a pale yellow colored gas giant with a bright ring system made of ice and rock",
       "image": "images/saturn.png",
       "audio": "audio/saturn.mp3",
-      "facts": ["The 6th planet", "Made up of mostly hydrogen and helium", "Seven main rings", "Thick atmosphere", "One day in Saturn is 10.7 hours", "One year in Saturn is 29 Earth years",
+      "facts": ["The 6th planet", "Made up of mostly hydrogen and helium", "Seven main rings", "Thick atmosphere", "One day on Saturn is 10.7 hours", "One year on Saturn is 29 Earth years",
            "274 moons", "Temperature is -139 °C"]
     },
     { 
@@ -62,33 +62,46 @@
       "description": "A beautiful pale cyan and smooth blue-green ice giant with narrow dark rings",
       "image": "images/uranus.png",
       "audio": "audio/uranus.mp3",
-      "facts": []    
+      "facts": ["The seventh planet", "Made of hydrogen, helium, and methane", "The methane makes Uranus blue", "Rotates on its side",
+      "Rotates in the opposite direction as most other planets", "Has 13 rings", "One day on Uranus is 17 hours and 14 mins", "One year on uranus is 84 Earth years",
+      "Has 28 moons", "Very cold, -224°C"]    
     },
     {
-      "title":
-      "type":
-      "description":
-      "image":
-      "audio":
-      "facts": []
+      "title": "Neptune",
+      "type": "planet",
+      "description": "Neptune is a vibrant, azure-blue ice giant with an atmosphere of high-speed winds, white methane clouds, and faint rings",
+       "image": "images/neptune.png",
+      "audio": "audio/neptune.mp3",
+      "facts": ["Dark, cold and very windy", "The last planet in our solar system", "Made of a thick fog of water, ammonia, and methane", "Has 6 rings", "Made up of methane, hydrogen and helium",
+      "The methane gaves it the blue color", "One day on Neptune is 16 hours","One year is 165 Earth years", "Has 16 moons", "Discovered in 1846", "Cold, -353°F"]
     },
     {
-      "title":
-      "type":
-      "description":
-      "image":
-      "audio":
-      "facts": []
+      "title": "Sun",
+      "type": "star",
+      "description": "A hot orange glowing ball of gas",
+      "image": "images/sun.png",
+      "audio": "audio/sun.mp3",
+      "facts": ["A yellow dwarf star", "Made of hydrogen and helium", "Our closest star", "93 million miles away from Earth", "Very  hot surface, hotter atmosphere and the core is 27 million °F", 
+        "100 times wider than Earth", "In another 5 billion years the Sun will run out of helium and hydrogen", "Will become a big, cool star called a red giant", "Then become a  small white dwarf star",
+      "As a white dwarf, it will continue to cool down"]
     },
     {
-      "title":
-      "type":
-      "description":
-      "image":
-      "audio":
-      "facts": []
+      "title": "Moon",
+      "type": "moon",
+      "description": "The moon is a rocky, greyish-white, spherical celestial body with a cratered surface",
+      "image": "images/moon.png",
+      "audio": "audio/moon.mp3",
+      "facts": ["Earth's only natural satellite", "About 4.5 billion years old", "238,855 miles away from Earth", "Made mostly of rock and dust", "Has no atmosphere or weather", 
+        "Has craters from being hit by asteroids", "Surface temperatures swing from 250°F in sun to -208°F in shade", "Causes the ocean tides on Earth", "12 astronauts have walked on it",
+        "Slowly drifting about 1.5 inches farther from Earth each year"]
+    },
+    { "title": "Black hole",
+      "type": "black hole",
+      "description": "The black hole is a scary dark, spherical silhouette surrounded by a bright, fiery ring of light", 
+      "image": "images/blackhole.png",
+      "audio": "audio/blackhole.mp3",
+      "facts": ["Massive", "A collection of mass with strong gravity", "Nothing can escape, not even light", "Scary way to die", "Material that gets too close to a black hole gets sucked in and can never escape",
+      "Time slows down near it", "A disk of gas, dust, stars and planets spirals around it", "Strangest thing in the universe"]
     }
-    
-    
   ]
 }
