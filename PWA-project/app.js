@@ -1,9 +1,6 @@
-// Load JSON and build the menu
 fetch('data.json')
   .then(response => response.json())
-  .then(data => {
-    buildMenu(data.celestialBodies);
-  })
+  .then(data => buildMenu(data.celestialBodies))
   .catch(error => {
     console.error('Error loading data:', error);
     document.getElementById('menu').innerHTML = '<p>Could not load data 😢</p>';
@@ -18,10 +15,8 @@ function buildMenu(bodies) {
     const button = document.createElement('button');
     button.textContent = body.title;
     button.onclick = () => {
-      // Mark this button active
       document.querySelectorAll('.planet-menu button').forEach(b => b.classList.remove('active'));
       button.classList.add('active');
-      // Travel to this planet
       travelTo(body);
     };
     menu.appendChild(button);
@@ -31,48 +26,59 @@ function buildMenu(bodies) {
 
 function travelTo(body) {
   const img = document.getElementById('planetImage');
-  const title = document.getElementById('planetTitle');
-  const type = document.getElementById('planetType');
-  const desc = document.getElementById('planetDesc');
-  const listenBtn = document.getElementById('listenBtn');
-  const factsBtn = document.getElementById('factsBtn');
-  const factsList = document.getElementById('factsList');
   
-  // Step 1: Zoom out + fade out current planet
+  // Always start by showing the info view
+  showInfoView();
+  
+  // Zoom out + fade out current planet
   img.classList.remove('show');
   
-  // Step 2: After fade out, swap content and zoom in
   setTimeout(() => {
     // Update image
     img.src = body.image;
     img.alt = body.title;
-    
-    // Set the planet's color glow class
     const cssClass = body.title.toLowerCase().replace(' ', '-');
     img.className = 'planet-bg ' + cssClass;
     
-    // Update text
-    title.textContent = body.title;
-    type.textContent = body.type;
-    desc.textContent = body.description;
+    // Update info view
+    document.getElementById('planetTitle').textContent = body.title;
+    document.getElementById('planetType').textContent = body.type;
+    document.getElementById('planetDesc').textContent = body.description;
     
-    // Update buttons
-    listenBtn.style.display = 'inline-block';
+    // Show "Show Facts" button
+    const factsBtn = document.getElementById('factsBtn');
     factsBtn.style.display = 'inline-block';
-    listenBtn.onclick = () => playAudio(body.audio);
-    factsBtn.onclick = () => showFacts(body.facts);
+    factsBtn.onclick = () => showFactsView(body);
     
-    // Build facts list
-    factsList.innerHTML = '';
-    body.facts.forEach(fact => {
-      const li = document.createElement('li');
-      li.textContent = fact;
-      factsList.appendChild(li);
-    });
-    
-    // Step 3: Trigger the zoom-in animation
+    // Trigger zoom-in
     setTimeout(() => img.classList.add('show'), 50);
   }, 600);
+}
+
+
+function showInfoView() {
+  document.getElementById('infoView').classList.remove('hidden');
+  document.getElementById('factsView').classList.add('hidden');
+}
+
+
+function showFactsView(body) {
+  // Build facts list
+  const factsList = document.getElementById('factsList');
+  factsList.innerHTML = '';
+  body.facts.forEach(fact => {
+    const li = document.createElement('li');
+    li.textContent = fact;
+    factsList.appendChild(li);
+  });
+  
+  // Hook up the buttons
+  document.getElementById('listenBtn').onclick = () => playAudio(body.audio);
+  document.getElementById('backBtn').onclick = () => showInfoView();
+  
+  // Switch to facts view
+  document.getElementById('infoView').classList.add('hidden');
+  document.getElementById('factsView').classList.remove('hidden');
 }
 
 
@@ -82,14 +88,3 @@ function playAudio(audioFile) {
     alert('Audio file not found yet!');
   });
 }
-
-
-function showFacts(facts) {
-  document.getElementById('factsPanel').classList.add('show');
-}
-
-
-// Close facts panel
-document.getElementById('closeFacts').onclick = () => {
-  document.getElementById('factsPanel').classList.remove('show');
-};
