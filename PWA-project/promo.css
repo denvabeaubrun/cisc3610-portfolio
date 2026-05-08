@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(135deg, #afd7e6 0%, #facb98 100%);
+  background: rgb(0, 127, 255);
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #2a2a2a;
   min-height: 100vh;
