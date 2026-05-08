@@ -53,7 +53,7 @@ body::before {
 
 .planet-img {
   width: 280px;
-  max-width: 35%;
+  max-width: 45%;
   margin-bottom: 0;
   transform: none;
   flex-shrink: 0;
