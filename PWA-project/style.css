@@ -41,28 +41,38 @@ body::before {
 #menu button:hover {
   background: #0a9396;
 }
-
 .planet-slide {
   min-height: 60vh;
   display: flex;
-  align-items: center;  
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
 }
+
 .planet-img {
-  width: 300px;
-  max-width: 80%;
-  margin-bottom: 20px;
-  transform: translate(40px);
-
-  filter: drop-shadow(0 0 30px rgba(0,150,255,0.7));
-  transition: transform 0.5s ease;
+  width: 280px;
+  max-width: 35%;
+  margin-bottom: 0;
+  transform: none;
+  flex-shrink: 0;
 }
 
-.planet-img:hover {
-  transform: scale(1.1) rotate(5deg);
-}
 .card {
-  margin-left: 30px; 
+  margin-left: 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 25px 30px;
+  max-width: 420px;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
+
+
 .carousel-item {
   transition: transform 1.2s ease-in-out;
 }
