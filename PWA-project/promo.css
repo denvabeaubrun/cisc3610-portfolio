@@ -2,9 +2,8 @@
 
 body {
   margin: 0;
-  background: rgb(0, 127, 255);
+  background-color: #007FFF;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #2a2a2a;
   min-height: 100vh;
 }
 
