@@ -201,7 +201,7 @@ body::before {
 .neptune { filter: drop-shadow(0 0 60px rgba(0, 80, 255, 0.9)); }
 .sun     { filter: drop-shadow(0 0 80px rgba(255, 200, 0, 1)); }
 .moon    { filter: drop-shadow(0 0 50px rgba(220, 220, 220, 0.7)); }
-.black-hole { filter: drop-shadow(0 0 70px rgba(120, 0, 255, 0.8)); }
+
 
 /* Responsive */
 @media (max-width: 768px) {
