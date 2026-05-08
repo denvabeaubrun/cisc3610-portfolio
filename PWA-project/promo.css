@@ -101,17 +101,6 @@ body {
   margin-bottom: 0;
 }
 
-/* Screenshots */
-.screenshots {
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.screenshot-img {
-  width: 60%;
-  border-radius: 15px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-  border: 4px solid white;
-}
 
 /* Install cards */
 .install-card {
@@ -149,3 +138,40 @@ footer .small {
   font-size: 0.85rem;
   opacity: 0.7;
 }
+.phone-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+}
+
+.phone-screenshot {
+  max-width: 30%;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.phone-screenshot:hover {
+  transform: translateY(-10px);
+}
+
+/* Tilt the phones for a fanned-out look */
+.phone-1 {
+  transform: rotate(-5deg);
+}
+
+.phone-2 {
+  transform: rotate(0deg);
+  z-index: 2;          /* middle one in front */
+  margin-top: -20px;   /* slightly higher */
+}
+
+.phone-3 {
+  transform: rotate(5deg);
+}
+
+.phone-1:hover { transform: rotate(-5deg) translateY(-10px); }
+.phone-2:hover { transform: rotate(0deg) translateY(-10px); }
+.phone-3:hover { transform: rotate(5deg) translateY(-10px); }
