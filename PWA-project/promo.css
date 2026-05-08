@@ -1,0 +1,152 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #afd7e6 0%, #facb98 100%);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #2a2a2a;
+  min-height: 100vh;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 10px 0;
+  color: #1a3a5c;
+}
+
+.hero-tagline {
+  font-size: 1.4rem;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.launch-btn {
+  background: #1a3a5c !important;
+  border: none !important;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  box-shadow: 0 6px 20px rgba(26, 58, 92, 0.3);
+  transition: transform 0.2s;
+}
+
+.launch-btn:hover {
+  background: #2a5a8c !important;
+  transform: translateY(-2px);
+}
+
+/* Section styling */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a3a5c;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.info-section {
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+/* Feature cards */
+.feature-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  font-size: 1.3rem;
+  color: #1a3a5c;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #555;
+  margin-bottom: 0;
+}
+
+/* Screenshots */
+.screenshots {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.screenshot-img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  border: 4px solid white;
+}
+
+/* Install cards */
+.install-card {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 15px;
+  height: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.install-card h3 {
+  font-size: 1.3rem;
+  color: #1a3a5c;
+  margin-bottom: 15px;
+}
+
+.install-card ol {
+  padding-left: 20px;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* Footer */
+footer {
+  background: rgba(0, 0, 0, 0.05);
+  color: #555;
+  padding: 30px 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer .small {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
