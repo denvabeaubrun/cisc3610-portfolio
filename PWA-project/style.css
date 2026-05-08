@@ -1,12 +1,10 @@
 body {
   margin: 0;
   min-height: 100vh;
-
   background-image: url("stars.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
   color: white;
   font-family: Arial, sans-serif;
 }
@@ -41,22 +39,28 @@ body::before {
 #menu button:hover {
   background: #0a9396;
 }
+
 .planet-slide {
   min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  max-width: 900px;
+  gap: 50px;
+  max-width: 1100px;
   margin: 0 auto;
+  padding: 0 80px;
 }
 
 .planet-img {
-  width: 280px;
-  max-width: 60%;
+  width: 320px;
   margin-bottom: 0;
   transform: none;
   flex-shrink: 0;
+  transition: transform 0.5s ease;
+}
+
+.planet-img:hover {
+  transform: scale(1.1) rotate(5deg);
 }
 
 .card {
@@ -66,17 +70,31 @@ body::before {
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
-  padding: 25px 30px;
-  max-width: 420px;
+  padding: 30px 35px;
+  width: 450px;
+  flex-shrink: 0;
   color: white;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
+.card button {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 5px;
+  transition: background 0.3s;
+}
+
+.card button:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
 
 .carousel-item {
   transition: transform 1.2s ease-in-out;
 }
-/* Move entire carousel DOWN */
+
 .carousel {
   margin-top: 120px;
 }
@@ -93,46 +111,38 @@ body::before {
   top: 60%;
   transform: translateY(-50%);
 }
+
+/* Planet glow colors */
 .mercury {
   filter: drop-shadow(0 0 40px rgba(180, 0, 255, 0.9));
 }
-
 .venus {
   filter: drop-shadow(0 0 40px rgba(255, 200, 0, 0.9));
 }
-
 .earth {
   filter: drop-shadow(0 0 40px rgba(0, 150, 255, 0.9));
 }
-
 .mars {
   filter: drop-shadow(0 0 40px rgba(255, 60, 0, 0.9));
 }
-
 .jupiter {
   filter: drop-shadow(0 0 40px rgba(255, 140, 0, 0.8));
 }
-
 .saturn {
   filter: drop-shadow(0 0 40px rgba(255, 220, 100, 0.9));
 }
-
 .uranus {
   filter: drop-shadow(0 0 40px rgba(100, 220, 255, 0.9));
 }
-
 .neptune {
   filter: drop-shadow(0 0 40px rgba(0, 80, 255, 1));
 }
-
 .sun {
   filter: drop-shadow(0 0 60px rgba(255, 200, 0, 1));
 }
-
 .moon {
   filter: drop-shadow(0 0 25px rgba(220, 220, 220, 0.8));
 }
-
 .black-hole {
   filter: drop-shadow(0 0 50px rgba(120, 0, 255, 0.9));
 }
