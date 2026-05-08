@@ -75,33 +75,45 @@ body::before {
   min-height: 70vh;
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* The huge planet image */
+/* The planet image — now sits in the layout, not absolute */
 .planet-bg {
-  position: absolute;
-  left: 75%;
-  top: 50%;
-  transform: translateY(-50%) scale(0.3);
-  width: 700px;
-  max-width: 70vw;
+  position: relative;
+  right: auto;
+  top: auto;
+  transform: scale(0.3);
+  width: 400px;
+  max-width: 40vw;
   opacity: 0;
   transition: transform 1.5s ease-out, opacity 1.5s ease-out;
-  z-index: 1;
+  flex-shrink: 0;
 }
 
 .planet-bg.show {
-  transform: translateY(-50%) scale(1);
-  opacity: 0.95;
+  transform: scale(1);
+  opacity: 1;
 }
 
-/* Text overlay */
+/* Text overlay — now sits next to the planet */
 .text-overlay {
   position: relative;
   z-index: 5;
-  max-width: 480px;
-  padding: 0 40px 0 60px;
-  margin-left: 5%;
+  max-width: 450px;
+  padding: 0;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 30px;
+  flex-shrink: 0;
 }
 
 .planet-type {
