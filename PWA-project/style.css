@@ -80,7 +80,7 @@ body::before {
 /* The huge planet image */
 .planet-bg {
   position: absolute;
-  right: -10%;
+  left: 75%;
   top: 50%;
   transform: translateY(-50%) scale(0.3);
   width: 700px;
