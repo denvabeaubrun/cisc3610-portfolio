@@ -20,28 +20,30 @@
     <p>Loading...</p>
   </nav>
 
-  <!-- MAIN STAGE -->
   <main class="stage">
     
+    <!-- Planet image -->
     <img id="planetImage" class="planet-bg" src="" alt="">
     
-    <div class="text-overlay">
-      <p id="planetType" class="planet-type">PLANET</p>
-      <h2 id="planetTitle" class="planet-title">Welcome</h2>
-      <p id="planetDesc" class="planet-desc">Choose a destination above to begin your journey.</p>
-      <button id="listenBtn" class="listen-btn" style="display:none;">🔊 Listen</button>
-      <button id="factsBtn" class="facts-btn" style="display:none;">✨ Show Facts</button>
-    </div>
-    
-    <div id="factsPanel" class="facts-panel">
-      <h3>Fun Facts</h3>
-      <ul id="factsList"></ul>
-      <button id="closeFacts" class="close-facts">✕</button>
+    <!-- Card with two views: info & facts -->
+    <div class="info-card">
+      
+      <!-- View 1: Planet info -->
+      <div id="infoView" class="card-view">
+        <p id="planetType" class="planet-type">PLANET</p>
+        <h2 id="planetTitle" class="planet-title">Welcome</h2>
+        <p id="planetDesc" class="planet-desc">Choose a destination above to begin your journey.</p>
+        <button id="factsBtn" class="card-btn" style="display:none;">✨ Show Facts</button>
+      </div>
+      
+      <!-- View 2: Facts -->
+      <div id="factsView" class="card-view hidden">
+        <h3 class="facts-heading">✨ Fun Facts</h3>
+        <ul id="factsList"></ul>
+        <button id="listenBtn" class="card-btn">🔊 Listen</button>
+        <button id="backBtn" class="card-btn">← Back</button>
+      </div>
+      
     </div>
     
   </main>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="app.js"></script>
-</body>
-</html>
