@@ -67,6 +67,19 @@ body::before {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.05);
 }
+.welcome-layout {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 40px;
+}
+
+.welcome-astronaut {
+  width: 260px;
+}
 .welcome-astronaut {
   width: 130px;
 
