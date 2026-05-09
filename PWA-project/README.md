@@ -42,13 +42,11 @@ Planet data is stored in `data.json`.
 To add a new planet or topic:
 
 ```json
-{
-  "title": "Pluto",
-  "type": "Dwarf Planet",
-  "description": "A cold dwarf planet in the Kuiper Belt.",
-  "image": "images/pluto.png",
-  "facts": [
-    "Pluto was discovered in 1930",
-    "Pluto has 5 moons"
-  ]
-}
+ {
+      "title": "Mercury",
+      "type": "planet",
+      "description": "Mercury is a heavily cratered, light grey rocky world",
+      "image": "images/mercury.png",
+      "audio": "audio/mercury.mp3",
+      "facts": ["Hottest day, coldest night", "No atmosphere", "Smallest planet", "Closest to the sun"]
+    }
