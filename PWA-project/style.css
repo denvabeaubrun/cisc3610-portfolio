@@ -67,26 +67,7 @@ body::before {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.05);
 }
-.welcome-layout {
-  display: flex;
-
-  justify-content: center;
-
-  align-items: center;
-
-  gap: 40px;
-}
-
-.welcome-astronaut {
-  width: 260px;
-}
-.welcome-astronaut {
-  width: 130px;
-
-  display: block;
-
-  margin: -20px auto 10px auto;
-}/* Stage — where the planet lives */
+/* Stage — where the planet lives */
 .stage {
   position: relative;
   z-index: 1;
@@ -226,4 +207,24 @@ body::before {
   .planet-title { font-size: 2.5rem; }
   .planet-desc { font-size: 0.95rem; }
   .stage { flex-direction: column; gap: 20px; }
+}
+.welcome-layout {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 40px;
+}
+
+.welcome-astronaut {
+  width: 350px;
+}
+.welcome-astronaut {
+  width: 130px;
+
+  display: block;
+
+  margin: -20px auto 10px auto;
 }
