@@ -1,14 +1,18 @@
 * { box-sizing: border-box; }
 
-body {
-  margin: 0;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  min-height: 100vh;
-  background: 
-    linear-gradient(to right, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.3) 100%),
-    url("space.png") right top / cover no-repeat fixed;
-  color: white;
-}
+background:
+  linear-gradient(
+    to right,
+    rgba(0,0,0,0.95) 0%,
+    rgba(0,0,0,0.6) 50%,
+    rgba(0,0,0,0.3) 100%
+  ),
+  url("space.png");
+background-position: right center;
+background-size: contain;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: black;
 
 /* Hero section */
 .hero {
