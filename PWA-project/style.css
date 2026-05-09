@@ -67,8 +67,13 @@ body::before {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.05);
 }
+.welcome-astronaut {
+  width: 130px;
 
-/* Stage — where the planet lives */
+  display: block;
+
+  margin: -20px auto 10px auto;
+}/* Stage — where the planet lives */
 .stage {
   position: relative;
   z-index: 1;
