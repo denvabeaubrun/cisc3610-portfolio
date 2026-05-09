@@ -219,7 +219,8 @@ body::before {
 }
 
 .welcome-astronaut {
-  width: 350px;
+  width: 350px !important;
+  height: auto;
 }
 .welcome-astronaut {
   width: 130px;
