@@ -53,22 +53,26 @@ body {
 }
 
 .launch-btn {
-  background:#4b92b3 !important;
-  border: none !important;
-  padding: 15px 40px;
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.18) !important;
+  padding: 16px 42px;
   font-size: 1.1rem;
-  font-weight: 600;
-  border-radius: 30px;
-  box-shadow: 0 6px 20px rgba(26, 58, 92, 0.3);
-  transition: transform 0.2s;
-  margin: 20px 0 20px 140px;
+  font-weight: 700;
+  border-radius: 40px;
+  color: white !important;
+  letter-spacing: 0.03em;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+  transition: all 0.3s ease;
 }
 
 .launch-btn:hover {
-  background: #2a5a8c !important;
-  transform: translateY(-2px);
-}
+  background: rgba(255,255,255,0.15) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.45);
 
+}
 /* Section styling */
 .section-title {
   font-size: 2rem;
