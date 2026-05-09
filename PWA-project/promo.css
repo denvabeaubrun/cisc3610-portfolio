@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: #0d75d6;
+  background-color: #2F8BBB;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   min-height: 100vh;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .launch-btn {
-  background: #1a3a5c !important;
+  background:  !important;
   border: none !important;
   padding: 15px 40px;
   font-size: 1.1rem;
