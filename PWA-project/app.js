@@ -73,7 +73,7 @@ function showFactsView(body) {
   });
   
   // Hook up the buttons
-  document.getElementById('listenBtn').onclick = () => playAudio(body.audio);
+  document.getElementById('listenBtn').onclick = () => playAudio(body);
   document.getElementById('backBtn').onclick = () => showInfoView();
   
   // Switch to facts view
@@ -82,9 +82,38 @@ function showFactsView(body) {
 }
 
 
-function playAudio(audioFile) {
-  const audio = new Audio(audioFile);
-  audio.play().catch(() => {
-    alert('Audio file not found yet!');
-  });
+function playAudio(body) {
+
+  speechSynthesis.cancel();
+
+  let speechText = "";
+
+  // Welcome page
+  if (body.title === "Welcome") {
+
+    speechText =
+      "Welcome explorer. Choose a destination above to begin your journey through the solar system.";
+
+  } else {
+
+    // Planet title + description
+    speechText =
+      `${body.title}. ${body.description}.`;
+
+    // Add facts
+    body.facts.forEach(fact => {
+      speechText += " " + fact;
+    });
+  }
+
+  const speech = new SpeechSynthesisUtterance(speechText);
+
+  // Astronaut commander settings
+  speech.rate = 0.88;
+
+  speech.pitch = 0.7;
+
+  speech.volume = 1;
+
+  speechSynthesis.speak(speech);
 }
