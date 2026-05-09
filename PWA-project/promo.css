@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   background: 
     linear-gradient(to right, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.3) 100%),
-    url("space.png") right center / cover no-repeat fixed;
+    url("space.png") right top / cover no-repeat fixed;
   color: white;
 }
 
