@@ -82,9 +82,7 @@ function showFactsView(body) {
 }
 
 
-function playAudio(body) {
-
-  speechSynthesis.cancel();
+async function playAudio(body) {
 
   let speechText = "";
 
@@ -106,14 +104,57 @@ function playAudio(body) {
     });
   }
 
-  const speech = new SpeechSynthesisUtterance(speechText);
+  try {
 
-  // Astronaut commander settings
-  speech.rate = 0.88;
+    const response = await fetch(
+      "https://api.inworld.ai/tts/v1/voice:stream",
+      {
 
-  speech.pitch = 0.7;
+        method: "POST",
 
-  speech.volume = 1;
+        headers: {
+          "Authorization": "Basic YOUR_API_KEY",
+          "Content-Type": "application/json"
+        },
 
-  speechSynthesis.speak(speech);
+        body: JSON.stringify({
+
+          text: speechText,
+
+          voice_id:
+            "default-hyejditxzn9is4octs5tja__astronaut-vys22",
+
+          audio_config: {
+            audio_encoding: "MP3",
+            speaking_rate: 0.9
+          },
+
+          delivery_mode: "BALANCED",
+
+          model_id: "inworld-tts-2",
+
+          language: "AUTO"
+        })
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error("Voice API failed");
+    }
+
+    const audioBlob = await response.blob();
+
+    const audioUrl = URL.createObjectURL(audioBlob);
+
+    const audio = new Audio(audioUrl);
+
+    audio.play();
+
+  } catch (error) {
+
+    console.error(error);
+
+    alert("Astronaut transmission failed 🚀");
+
+  }
 }
