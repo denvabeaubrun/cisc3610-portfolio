@@ -143,11 +143,10 @@ footer .small {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  position: relative;
 }
 
 .phone-screenshot {
-  max-width: 30%;
+  max-width: 32%;
   border-radius: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s;
@@ -156,22 +155,3 @@ footer .small {
 .phone-screenshot:hover {
   transform: translateY(-10px);
 }
-
-/* Tilt the phones for a fanned-out look */
-.phone-1 {
-  transform: rotate(-5deg);
-}
-
-.phone-2 {
-  transform: rotate(0deg);
-  z-index: 2;          /* middle one in front */
-  margin-top: -20px;   /* slightly higher */
-}
-
-.phone-3 {
-  transform: rotate(5deg);
-}
-
-.phone-1:hover { transform: rotate(-5deg) translateY(-10px); }
-.phone-2:hover { transform: rotate(0deg) translateY(-10px); }
-.phone-3:hover { transform: rotate(5deg) translateY(-10px); }
