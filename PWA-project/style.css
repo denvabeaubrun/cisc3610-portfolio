@@ -119,6 +119,16 @@ body::before {
   border-radius: 50%;
   box-shadow: -5px 5px 10px rgba(0,0,0,0.05);
 }
+.info-card::after {
+  content: "";
+  position: absolute;
+  left: -55px;
+  top: 175px;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+}
 
 .card-view {
   flex: 1;
