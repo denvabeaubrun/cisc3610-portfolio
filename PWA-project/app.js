@@ -52,6 +52,9 @@ function travelTo(body) {
     
     // Trigger zoom-in
     setTimeout(() => img.classList.add('show'), 50);
+    
+    // 🔊 PLAY THE AUDIO AUTOMATICALLY
+    playAudio(body.audio);
   }, 600);
 }
 
@@ -82,79 +85,19 @@ function showFactsView(body) {
 }
 
 
-async function playAudio(body) {
+let currentAudio = null;  // Track the currently playing audio
 
-  let speechText = "";
-
-  // Welcome page
-  if (body.title === "Welcome") {
-
-    speechText =
-      "Welcome explorer. Choose a destination above to begin your journey through the solar system.";
-
-  } else {
-
-    // Planet title + description
-    speechText =
-      `${body.title}. ${body.description}.`;
-
-    // Add facts
-    body.facts.forEach(fact => {
-      speechText += " " + fact;
-    });
+function playAudio(audioFile) {
+  // Stop any audio that's currently playing
+  if (currentAudio) {
+    currentAudio.pause();
+    currentAudio = null;
   }
-
-  try {
-
-    const response = await fetch(
-      "https://api.inworld.ai/tts/v1/voice:stream",
-      {
-
-        method: "POST",
-
-        headers: {
-          "Authorization": "Basic YOUR_API_KEY",
-          "Content-Type": "application/json"
-        },
-
-        body: JSON.stringify({
-
-          text: speechText,
-
-          voice_id:
-            "default-hyejditxzn9is4octs5tja__astronaut-vys22",
-
-          audio_config: {
-            audio_encoding: "MP3",
-            speaking_rate: 0.9
-          },
-
-          delivery_mode: "BALANCED",
-
-          model_id: "inworld-tts-2",
-
-          language: "AUTO"
-        })
-      }
-    );
-
-    if (!response.ok) {
-      throw new Error("Voice API failed");
-    }
-
-    const audioBlob = await response.blob();
-
-    const audioUrl = URL.createObjectURL(audioBlob);
-
-    const audio = new Audio(audioUrl);
-
-    audio.play();
-
-  } catch (error) {
-
-    console.error(error);
-
-    alert("Astronaut transmission failed 🚀");
-
-  }
+  
+  // Start the new audio
+  currentAudio = new Audio(audioFile);
+  currentAudio.play().catch(error => {
+    console.log('Audio could not play:', error.message);
+    // Don't show alert — autoplay being blocked is normal on first load
+  });
 }
