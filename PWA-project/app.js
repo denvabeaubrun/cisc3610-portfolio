@@ -76,7 +76,7 @@ function showFactsView(body) {
   });
   
   // Hook up the buttons
-  document.getElementById('listenBtn').onclick = () => playAudio(body);
+  document.getElementById('listenBtn').onclick = () => playAudio(body.audio);
   document.getElementById('backBtn').onclick = () => showInfoView();
   
   // Switch to facts view
