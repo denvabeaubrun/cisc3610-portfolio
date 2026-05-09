@@ -219,6 +219,14 @@ body::before {
 .moon    { filter: drop-shadow(0 0 50px rgba(220, 220, 220, 0.7)); }
 
 
+/* Desktop astronaut */
+.welcome-astronaut {
+  width: 350px;
+  max-width: 30vw;
+  height: auto;
+  display: block;
+}
+
 /* Mobile fixes — phones smaller than 768px */
 @media (max-width: 768px) {
   
@@ -252,7 +260,7 @@ body::before {
     display: block;
   }
   
-  /* Hide the astronaut once a planet is selected */
+  /* Hide astronaut if needed */
   .welcome-astronaut.hidden {
     display: none;
   }
