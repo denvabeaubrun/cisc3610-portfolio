@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Outfit', sans-serif;
-  background: #FFC5D3;
+  background: #1a1410;
   color: #2f241d;
   padding: 60px 40px;
   line-height: 1.7;
@@ -26,7 +26,7 @@ h1 {
 }
 
 .intro {
-  color: #5c4b3f;
+  color: #3d2f24;
   font-size: 1.1rem;
   margin-bottom: 50px;
   max-width: 700px;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .video-card .artist {
-  color: #9b7c5b;
+  color: #6e5235;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 0.75rem;
@@ -73,7 +73,7 @@ h1 {
 }
 
 .video-card .description {
-  color: #5b4a3d;
+  color: #3d2f24;
   line-height: 1.8;
   font-size: 0.95rem;
 }
