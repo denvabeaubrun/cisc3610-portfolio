@@ -84,16 +84,15 @@ function showFactsView(body) {
   document.getElementById('factsView').classList.remove('hidden');
 }
 
-let hasInteracted = false;
-
 function playWelcomeOnce() {
-  if (!hasInteracted) {
-    hasInteracted = true;
-    playAudio('audio/welcome.mp3');
-  }
+  playAudio('audio/welcome.mp3');
   document.removeEventListener('click', playWelcomeOnce);
+  document.removeEventListener('keydown', playWelcomeOnce);
+  document.removeEventListener('scroll', playWelcomeOnce);
 }
 document.addEventListener('click', playWelcomeOnce);
+document.addEventListener('keydown', playWelcomeOnce);
+document.addEventListener('scroll', playWelcomeOnce);
 
 let currentAudio = null;  // Track the currently playing audio
 
