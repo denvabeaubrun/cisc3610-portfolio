@@ -30,5 +30,5 @@ A Hannah Montana resume page using Bootstrap components.
 [View Project](https://denvabeaubrun.github.io/cisc3610-portfolio/Resume%20Lab/)
 
 ### Video Lab 
-A collection of youtube videos that I chose 
-[View Project]([https://denvabeaubrun.github.io/cisc3610-portfolio/Resume%20Lab/](https://denvabeaubrun.github.io/cisc3610-portfolio/Video%20Lab/))
+A collection of youtube videos that I chose. 
+[View Project](https://denvabeaubrun.github.io/cisc3610-portfolio/Video%20Lab/)
