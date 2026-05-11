@@ -84,6 +84,16 @@ function showFactsView(body) {
   document.getElementById('factsView').classList.remove('hidden');
 }
 
+let hasInteracted = false;
+
+function playWelcomeOnce() {
+  if (!hasInteracted) {
+    hasInteracted = true;
+    playAudio('audio/welcome.mp3');
+  }
+  document.removeEventListener('click', playWelcomeOnce);
+}
+document.addEventListener('click', playWelcomeOnce);
 
 let currentAudio = null;  // Track the currently playing audio
 
